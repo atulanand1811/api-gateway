@@ -8,16 +8,16 @@ zuul:
     routes:
         auditChecklist:
             serviceId: auditChecklist
-            url: http://localhost:9100/
+            url: http://65.0.119.240:9100/
         auditSeverity:
             serviceId: auditSeverity
-            url: http://localhost:9200/
+            url: http://3.108.255.15:9200/
         auditBenchmark:
             serviceId: auditBenchmark
-            url: http://localhost:9300/
+            url: http://3.108.2.65:9300/
         auditAuthentication:
             serviceId: auditAuthentication
-            url: http://localhost:9400/
+            url: http://13.235.58.76:9400/
            
             
            
